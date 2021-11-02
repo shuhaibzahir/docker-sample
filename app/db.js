@@ -1,6 +1,6 @@
 const mongoose = require("mongoose")
  const config = {
-    url: 'mongodb://localhost:27017',
+    url: 'mongodb://mongodb',
     user: 'admin',
     pwd: 'password'
 }

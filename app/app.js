@@ -11,6 +11,7 @@ const User =  mongoose.model("user",schema)
 
 app.use(express.json())
 app.use(express.urlencoded({extended:false}))
+console.log('this is new')
 db.connect()
 
 app.get("/",(req, res)=>{
@@ -30,5 +31,5 @@ app.post("/post",(req,res)=>{
 
 
 app.listen(3003,()=>{
-    console.log("this is main sever running 3003")
+    console.log("this is main sever running............ 3003")
 })
